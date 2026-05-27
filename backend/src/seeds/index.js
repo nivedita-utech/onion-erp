@@ -211,7 +211,7 @@ const seedDatabase = async () => {
 
     // 3. Test Users
     const usersToCreate = [
-      { name: 'Super Admin', email: '', role: 'super_admin' },
+      { name: 'Super Admin', email: 'admin@onionerp.com', role: 'super_admin' },
       { name: 'Sales Manager', email: 'sales@onionerp.com', role: 'sales_manager' },
       { name: 'Production Head', email: 'production@onionerp.com', role: 'production_manager' },
       { name: 'Warehouse Lead', email: 'warehouse@onionerp.com', role: 'warehouse_manager' },
